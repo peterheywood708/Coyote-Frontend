@@ -87,7 +87,7 @@ const AccordionComponent = ({
             {newStatus == 1 ? (
               <>
                 <Text fz="xs" c="dimmed" mt={7}>
-                  Progress: {newPercentage}%
+                  Progress: {newPercentage || 0}%
                 </Text>
                 <Progress value={newPercentage} mt={5} aria-label="Progress" />
               </>
