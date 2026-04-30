@@ -103,7 +103,7 @@ const AccordionComponent = ({
             })}
           </Accordion.Panel>
           <Accordion.Panel ta="left">
-            {status == 2 ? (
+            {status == 2 || newStatus == 2 ? (
               <>
                 <Button
                   variant="filled"
